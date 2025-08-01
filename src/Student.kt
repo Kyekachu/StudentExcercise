@@ -1,7 +1,12 @@
-class Student {
-    var name : String = ""
+class Student(name: String) {
+    var studentName : String = name
+    get() = field
+
+        private set(value) {
+            studentName = value
+        }
 
     fun displayStudentInfo() {
-        println("Student Name: $name")
+        println("Student Name: $studentName")
     }
 }
