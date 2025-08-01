@@ -3,4 +3,5 @@
 fun main() {
     var s = Student(name = "Jim Lemons")
     s.displayStudentInfo()
+    print (Calculator.Add(5,10))
 }
